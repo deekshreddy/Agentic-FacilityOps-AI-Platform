@@ -1,0 +1,19 @@
+﻿import Papa from 'papaparse';
+import { FacilityRecord } from '../types';
+
+export const parseCSV = (csvText: string): FacilityRecord[] => {
+  const parsed = Papa.parse<Record<string, string>>(csvText, { header: true, skipEmptyLines: true });
+  return parsed.data.map((row) => {
+    return Object.fromEntries(
+      Object.entries(row).map(([key, value]) => {
+        const normalized = key.trim();
+        const numericValue = Number(value);
+        return [
+          normalized,
+          value === undefined || value === null || value === '' ? null : isNaN(numericValue) ? value : numericValue,
+        ];
+      })
+    ) as FacilityRecord;
+  });
+};
+

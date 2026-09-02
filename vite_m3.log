@@ -1,0 +1,25 @@
+
+> facilityops-ai-platform@0.1.0 dev
+> vite
+
+Port 4173 is in use, trying another one...
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m2779[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4174[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m11:24:00 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:29:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:55:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:55:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:55:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css, /src/components/occupancy/OccupancyTrendChart.tsx, /src/components/occupancy/OccupancyKPICards.tsx, /src/components/occupancy/OccupancyHeatmap.tsx[22m
+[2m11:56:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:56:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:57:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m11:58:47 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/occupancy/OccupancyInsightCard.tsx, /src/index.css[22m
+[2m11:59:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/occupancy/PeakOccupancy.tsx, /src/index.css[22m
+[2m11:59:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/occupancy/OccupancyTrendChart.tsx, /src/index.css[22m
+[2m11:59:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/occupancy/OccupancyTrendChart.tsx, /src/index.css[22m
+[2m12:00:23 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
+[2m12:02:10 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/OccupancyPage.tsx, /src/index.css[22m
