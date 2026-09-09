@@ -4,7 +4,7 @@ import { DonutChart } from "../charts/DonutChart";
 import { LinePanel } from "../charts/LinePanel";
 import { BarPanel } from "../charts/BarPanel";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://agentic-facilityops-ai-platform-9219.onrender.com";
 
 interface BackendRecord {
   product_id?: string;
@@ -1050,7 +1050,7 @@ const MaintenancePage = () => {
         </p>
 
         <code className="mt-2 block rounded bg-black/30 p-3 text-sm text-slate-300">
-          http://127.0.0.1:8000
+          https://agentic-facilityops-ai-platform-9219.onrender.com
         </code>
       </div>
     );

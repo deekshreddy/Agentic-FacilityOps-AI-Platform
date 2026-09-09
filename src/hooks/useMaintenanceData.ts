@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 export type MaintenanceRecord = Record<string, any>;
 
-const API_URL = 'http://127.0.0.1:8000/api/maintenance/';
+const API_URL = 'https://agentic-facilityops-ai-platform-9219.onrender.com/api/maintenance/';
 
 const normalizeMaintenanceRecord = (
   record: MaintenanceRecord

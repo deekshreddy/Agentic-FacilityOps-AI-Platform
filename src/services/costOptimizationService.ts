@@ -149,7 +149,7 @@ export interface FacilityIntelligence {
   topRecommendation: string;
 }
 
-const MAINTENANCE_API_URL = 'http://127.0.0.1:8000/api/maintenance/';
+const MAINTENANCE_API_URL = 'https://agentic-facilityops-ai-platform-9219.onrender.com/api/maintenance/';
 
 /* ============================================================
    SAFE NUMERIC HELPERS
@@ -1004,3 +1004,4 @@ export const generateFacilityIntelligence = (
     topRecommendation,
   };
 };
+
