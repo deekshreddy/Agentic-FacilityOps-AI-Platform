@@ -1,7 +1,5 @@
-@"
 fastapi==0.141.1
 uvicorn==0.52.2
 pandas==3.0.5
 numpy==2.4.6
 python-multipart==0.0.32
-"@ | Set-Content backend\requirements.txt
