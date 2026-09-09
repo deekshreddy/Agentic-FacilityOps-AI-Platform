@@ -7,6 +7,7 @@ import {
   Shield,
   Settings,
   Building2,
+  TrendingDown,
 } from 'lucide-react';
 
 export const Sidebar = () => {
@@ -35,6 +36,11 @@ export const Sidebar = () => {
       name: 'Security',
       path: '/security',
       icon: Shield,
+    },
+    {
+      name: 'Cost Optimization',
+      path: '/cost-optimization',
+      icon: TrendingDown,
     },
     {
       name: 'Settings',
